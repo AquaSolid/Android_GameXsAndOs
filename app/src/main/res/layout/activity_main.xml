@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fate_metric_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/fate_metric"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/xs_and_os_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fate_metric_textView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tic_tac_toe"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xs_and_os_textView"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="26dp">
+
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="playGame"
+            android:text="@string/One_Player_Game_Random"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/minimax_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="playGame"
+            android:text="@string/One_Player_Game_MiniMax"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:id="@+id/Twoplay_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="playGame"
+            android:text="@string/two_player_game"
+            android:textAllCaps="false" />
+<!--
+        <Button
+            android:id="@+id/score_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="scoreBoards"
+            android:text="@string/settings"
+            android:textAllCaps="false" />
+-->
+        <Button
+            android:id="@+id/help_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Twoplay_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="goHelp"
+            android:text="@string/instructions"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="goHelp"
+            android:text="@string/exit"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/copyright"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

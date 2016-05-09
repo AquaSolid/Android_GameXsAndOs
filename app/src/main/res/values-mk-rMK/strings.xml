@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_human">You go first.</string>
+    <string name="turn_human">Your turn.</string>
+    <string name="turn_computer">Android\'s turn.</string>
+    <string name="turn_player_one">Player One\'s Turn.</string>
+    <string name="turn_player_two">Player Two\'s Turn.</string>
+    <string name="result_tie">It\'s a tie!</string>
+    <string name="result_human_wins">You Won!</string>
+    <string name="result_android_wins">Android Won!</string>
+    <string name="result_player_one_wins">Player One Wins!</string>
+    <string name="result_player_two_wins">Player Two Wins!</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="info">Info</string>
+    <string name="human">Human:  </string>
+    <string name="ties">Ties:  </string>
+    <string name="android">Android:  </string>
+    <string name="contact_heading">Contact Info</string>
+    <string name="contact_info">
+        <b>Name:</b> Fate Metric\n
+        <b>Email:</b> my email here\n
+        <b>Phone:</b> my phone here\n
+        <b>Website:</b> website here
+    </string>
+    <string name="about_heading">About</string>
+    <string name="about_info">This app allows you to play a game
+        of tic tac toe against the computer.  The rounds
+        will rotate who gets to play first.  Also, the app
+        will keep track and display the result of the games
+        at the bottom of the screen.
+    </string>
+    <string name="newGame_label">New Game</string>
+    <string name="exitGame_label">Exit Game</string>
+    <string name="real_instructions">The object of Tic Tac Toe is to get three in a row. You play on a three by three game board.
+        The first player is known as X and the second is O. \n \n
+        Players alternate placing Xs and Os on the game board until either opponent has three in a row or all nine squares are filled. \n \n
+        X always goes first, and in the event that no one has three in a row, the stalemate is called a cat game.</string>
+    <string name="one_player_game">One Player Game</string>
+    <string name="two_player_game">Two Player Game</string>
+    <string name="settings">Settings</string>
+    <string name="instructions">Instructions</string>
+    <string name="exit">Exit</string>
+    <string name="tic_tac_toe">Tic-Tac-Toe</string>
+    <string name="fate_metric">ФЕЈТ МЕТРИК</string>
+    <string name="copyright">Copyright © 2015 by Fate Metric. \n All rights reserved.</string>
+    <string name="change_language">Промени го јазикот</string>
+    <string name="language_english">English</string>
+    <string name="language_dutch">Deutsch (Nederlands)</string>
+    <string name="language_french">François</string>
+    <string name="language_macedonian">Македонски</string>
+    <string name="language_srbian">Српски</string>
+</resources>
